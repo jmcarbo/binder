@@ -11,3 +11,4 @@ cd lux-logger
 pip install .
 jupyter nbextension install --user logger
 jupyter nbextension enable  --user logger/static/main
+jupyter serverextension enable --py nbgitpuller --sys-prefix

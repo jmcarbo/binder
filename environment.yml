@@ -14,7 +14,4 @@ dependencies:
   - pip:
     - lux-api
     - jupyter-contrib-nbextensions
-
-
-
-      
+    - nbgitpuller
