@@ -3,19 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - dask
-  - distributed
-  - graphviz
-  - jupyterlab >=0.32,<0.33
-  - networkx
-  - nltk
-  - nodejs
-  - pydot
-  - pydotplus
-  - pygraphviz
-  - pylint
-  - python >=3.6,<3.7
-  - python-graphviz
+  - python
   - scikit-learn
   - sympy
   - numpy
@@ -24,8 +12,7 @@ dependencies:
   - bokeh
   - rise
   - pip:
-    - pycallgraph
-    - transitions
+    - lux-api
     - jupyter-contrib-nbextensions
 
 
