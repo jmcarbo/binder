@@ -12,3 +12,7 @@ pip install .
 jupyter nbextension install --user logger
 jupyter nbextension enable  --user logger/static/main
 jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter nbextension enable hide_input/main
+jupyter nbextension enable python-markdown/main
+jupyter nbextension enable init_cell/main
+jupyter nbextension enable codefolding/main
